@@ -24,5 +24,5 @@ for file in files:
   fb_dict['date'].append(line[2][:-1])
   fb_dict['feedback'].append(line[3][:-1])
 
-  response = requests.post(url, json=fb_dict)
-  print(response.status_code)
+  #response = requests.post(url, json=fb_dict)
+  #print(response.status_code)
